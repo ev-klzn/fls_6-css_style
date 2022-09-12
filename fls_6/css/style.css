@@ -50,42 +50,47 @@ body {
     overflow: hidden;
 }
 
-/* --------------- */
+/*  */
 
-.hi {
-    display: block;
+.krug {
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    border-radius: 50%;
 }
 
-.hello {
-    display: inline-block;
-    min-width: 200px;
-    min-height: 200px;
-    padding: 15px;
-}
-
-.link {
-    display: inline-block;
-    margin: 0 0 30px 0;
-}
-
-.text {
-    display: inline-block;
-    max-width: 100px;
-    margin: 30px;
-    padding: 10px;
-}
-
-.content__1 {
-    margin: 0 30px;
-}
-
-.content__2 {
-    margin: -20px 30px 0 30px;
+.opa {
+    opacity: 50%;
 }
 
 .span {
-    font-size: 30px;
-    max-height: 200px;
+    background-color: aquamarine;
+    margin: 50px;
     display: inline-block;
-    overflow: scroll;
+}
+
+.block {}
+
+.one {
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+}
+
+.two {
+    width: 500px;
+    height: 100px;
+    background-color: aquamarine;
+}
+
+.three {
+    width: 20px;
+    height: 280px;
+    background-color: aquamarine;
+}
+
+.four {
+    width: 250px;
+    height: 100px;
+    background-color: aquamarine;
 }
