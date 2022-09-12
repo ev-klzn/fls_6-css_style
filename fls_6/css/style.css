@@ -69,28 +69,34 @@ body {
     display: inline-block;
 }
 
-.block {}
-
 .one {
     width: 200px;
     height: 200px;
     background-color: aquamarine;
+    margin: 1px;
 }
 
 .two {
     width: 500px;
     height: 100px;
     background-color: aquamarine;
+    margin: 25px;
 }
 
 .three {
     width: 20px;
     height: 280px;
     background-color: aquamarine;
+    margin: 5px;
 }
 
 .four {
     width: 250px;
     height: 100px;
     background-color: aquamarine;
+    margin: -5px;
+}
+
+.link {
+    text-shadow: 0px 0px 5px rgb(255, 0, 0);
 }
